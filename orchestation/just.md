@@ -23,3 +23,7 @@ a justfile stub.
 help:
     @just --list
 ```
+
+## Bonus: shell completion
+
+Just add `eval $(just --completions bash)` to your `~/.basrc`.
